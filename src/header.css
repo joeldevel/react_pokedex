@@ -1,0 +1,32 @@
+.header {
+  /* background: orange; */
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat( 2,1fr);
+  grid-template-rows: repeat( 2, 1fr);
+  grid-template-areas:
+            ". status"
+            "type type";
+}
+.app-title {
+  text-align: center;
+}
+.status-container {
+  grid-area: status;
+}
+.status-led {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.status-led-red {
+  background: red;
+}
+.status-led-green {
+  background: green;
+}
+.status-led-yellow {
+  background: yellow;
+}

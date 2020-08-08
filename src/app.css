@@ -1,0 +1,15 @@
+:root {
+  --pokedex: #aa0034;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--pokedex);
+  font-family: sans-serif;
+}
+.pokedex {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}

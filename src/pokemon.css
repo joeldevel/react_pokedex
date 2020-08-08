@@ -1,0 +1,21 @@
+.pokemon-card {
+  display: flex;
+  /* border: 1px solid red; */
+  margin-bottom: 1em;
+  padding: 10px;
+  background: lightgrey;
+  border-radius: 5px;
+  border-top-right-radius: 1em;
+}
+.pokemon-img {
+  min-width: 30%;
+  background: white;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  order: -1;
+}
+.pokemon-name {
+  /* margin-left: 1em; */
+  text-transform: capitalize;
+  background-image: url();
+}
